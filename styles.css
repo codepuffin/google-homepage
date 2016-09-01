@@ -1,0 +1,163 @@
+a {
+	color: #757575;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+a.search-button:hover {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: 100%;
+}
+
+.navigation {
+	float: right;
+}
+
+ul.nav {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 20px;
+	opacity: 0.8;
+}
+
+li.top {
+	margin-top:10px;
+}
+
+ul.nav li img {
+	opacity: 0.8;
+	margin-top: -10px;
+	
+}
+
+ul.nav li button {
+	margin-top: -10px;
+	background-color: #366dd1;
+    border: 1px solid #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 7px 16px 8px 16px;
+}
+
+img.photo {
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+}
+
+.search-container {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo {
+	margin-top: 160px;
+	margin-bottom: 40px;
+	margin-left: 380px;
+	margin-right: 0 auto;
+}
+
+#search-form {
+		width: 540px;
+		height: 32px;
+		border: 1px solid #CCC;
+		margin: 0 auto;
+}
+
+#search-form img {
+	margin-top: 4px;
+	opacity: 0.6; 
+}
+
+#search-form:hover{
+	border-color: #222;
+}
+
+input {
+	width: 500px;
+	height: 30px;
+	border: 0px;
+	float: left;
+}
+
+#buttons {
+	width: 260px;
+	font-size: 11px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 7px 16px 8px 16px;
+    margin-left: 400px;
+}
+
+.search-button {
+	color:#757575;
+	background-color:#f8f8f8;
+	width: 110px;
+	height: 20px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	margin-top:20px;
+	margin-right: 15px;
+	float: left;
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	padding-top:7px;
+}
+
+.search-button:hover {
+	color:#000;
+	border: 1px solid #c6c6c6;
+	-webkit-box-shadow: 0 5px 6px -6px black;
+	-moz-box-shadow: 0 5px 6px -6px black;
+	box-shadow: 0 5px 6px -6px black;
+}
+
+span.button-label {
+		font-weight: 900;
+}
+
+.footer {
+	background: #f2f2f2;
+	width:100%;
+	height: 40px;
+	border-top: 1px solid #CCC;
+	position: absolute;
+	bottom: 0;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+ul.footer-nav {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+ul.footer-nav li {
+	float: left;
+	margin-right: 20px;
+}
+
